@@ -1,0 +1,58 @@
+/* css styles for css demo */
+
+@font-face {
+   font-family: "ErikaFont";
+    src: url("ErikasFont-Regular.otf");
+}
+
+body {
+   background-color: black; 
+    color: ghostwhite;
+    text-align: center;
+    background-image: url(grid.jpg);
+    background-repeat: repeat;
+    background-attachment: fixed;
+    font-family: ErikaFont, sans-serif;
+
+}
+
+#soundcontrol{
+    cursor: pointer;
+     width: 50px;
+}
+
+img {
+    width: 70%;
+    max-width: 500px;
+    display: block;
+    margin: 3rem auto 4rem auto;
+}
+
+h1 {
+    color: ghostwhite;
+    font-size: 8rem;
+    margin: 1rem auto
+
+}
+
+p{
+    font-size: 4rem;
+    margin: 1rem auto
+}
+
+a:link {
+    color: ghostwhite;
+}
+
+a:visited{
+    color: orangered;
+}
+
+a:hover {
+    background-color: chartreuse;
+    color: black
+}
+
+a:active {
+    background-color: orange;
+}

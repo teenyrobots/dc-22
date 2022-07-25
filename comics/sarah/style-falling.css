@@ -1,0 +1,53 @@
+
+
+@font-face {
+    font-family: "sarahfont";
+    src: url("assets/Maloneydoodles_main-Regular.otf");
+}
+
+body {
+    background-color: black;
+    color: white;
+    font-family: sarahfont, sans-serif;
+
+}
+
+.fallers {
+    position: fixed;
+    width: 50%;
+    left: 35%;
+    top: 12vh;
+}
+  
+
+img {
+
+  display: block;
+  max-width: 100%;
+  height: auto;
+
+}
+
+.headertext {
+    text-align: center;
+    font-size: 4rem;
+    
+    
+}
+
+.button {
+    align-content: center;
+}
+.subheadertext {
+    text-align: center;
+    font-size: 2rem;
+}
+
+.headertitle {
+    background-color: white;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+}
